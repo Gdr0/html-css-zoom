@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.yellow {
+  min-height: 2000px;
+  background-color: yellow;
+}
+.box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: violet;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.comando {
+  display: flex;
+  flex-direction: column;
+}
+
+.icona {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.green {
+  color: green;
+}
+h5 {
+  color: white;
+}
+.red {
+  color: red;
+}
